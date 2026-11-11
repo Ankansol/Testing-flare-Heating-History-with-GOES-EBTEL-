@@ -21,5 +21,6 @@
 
 ## Reproducing the documented example
 **Example 1: Heating only the electrons with one triangular event**
-![week1](Progress_and_docs/plots_figures/week1/example_unchanged.png)
+![Example Unchanged](plots_figures/week1/example_unchanged.png)
+
 
