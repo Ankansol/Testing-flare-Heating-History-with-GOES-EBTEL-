@@ -23,7 +23,7 @@
 **Example 1: Heating only the electrons with one triangular event**
 ![Example Unchanged](plots_figures/week1/example_unchanged.png)
 
-**Result**
+**Result**\
 Loop Half Length: 40Mm\
 Pulse shape: Triangular\
 Background Heating: 3.50e-05 cm^-3 s^-1\
@@ -36,6 +36,11 @@ Temp. Maxima time: 258.3s\
 Density Maxima: 4.066e+9 cm^-3\
 Density Maxima Time: 1750s\
 End of Heating: 500s\
+
+## Heating Duration Changed
+I took 500 second as the baseline duration from the above example, we now will find the temperature ,density, emission measure for 0.5,1,3 times baseline duration. which we get 250s, 500s,1500s.\
+**Experiment 1: Baseline Duration**
+![Experiment 500s Duration](plots_figures/week1/exp3_500_duration_heat.png)
 
 
 
