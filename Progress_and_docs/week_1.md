@@ -42,6 +42,109 @@ I took 500 second as the baseline duration from the above example, we now will f
 **Experiment 1: Baseline Duration**
 ![Experiment 500s Duration](plots_figures/week1/exp3_500_duration_heat.png)
 
+**Result**\
+Loop Half Length: 40Mm\
+Pulse shape: Triangular\
+Background Heating: 3.50e-05 cm^-3 s^-1\
+Pulse duration: 500s\
+Peak Heating Rate: 0.04 erg cm^-3 s^-1\
+
+**Model Output:**\
+Temp. Maxima: 8.240Mk\
+Temp. Maxima time: 258.3s\
+Density Maxima: 4.066e+9 cm^-3\
+Density Maxima Time: 1750s\
+End of Heating: 500s\
+
+**Emission Measure**\
+Assumed Width : 10Mm \
+Cross sectional Area: 1e+18 cm^2\
+Half loop volume : 4.00e+27 cm^3\
+Maxima Volume EM: 5.940e+46 cm^-3\
+Time of Maxima EM: 1750s\
+Integrated Excess Heating: 9.9975 erg cm^-3\
+
+**Experiment 2: Changing the duration to 250s**
+![Experiment 250s Duration](plots_figures/week1/exp2_250_duration_heat.png)
+
+**Result**\
+Loop Half Length: 40Mm\
+Pulse shape: Triangular\
+Background Heating: 3.50e-05 cm^-3 s^-1\
+Pulse duration: 250s\
+Peak Heating Rate: 0.08 erg cm^-3 s^-1\
+Heating Partition: 1.00\
+
+**Model Output:**\
+Temp. Maxima: 10.314Mk\
+Temp. Maxima time: 135.0s\
+Density Maxima: 4.216e+9 cm^-3\
+Density Maxima Time: 770s\
+End of Heating: 250s\
+
+**Emission Measure**\
+Assumed Width : 10Mm\ 
+Cross sectional Area: 1e+18 cm^2\
+Half loop volume : 4.00e+27 cm^3\
+Maxima Volume EM: 7.110e+46 cm^-3\
+Time of Maxima EM: 770s\
+Integrated Excess Heating: 9.999 erg cm^-3\
+
+**Experiment 3: Changing the heating duration to 1500s**
+![Experiment 1500s Duration](plots_figures/week1/exp3_1500_duration_heat.png)
+
+**Result**\
+Loop Half Length: 40Mm\
+Pulse shape: Triangular\
+Background Heating: 3.50e-05 cm^-3 s^-1\
+Pulse duration: 1500s\
+Peak Heating Rate: 0.0133 erg cm^-3 s^-1\
+Heating Partition: 1.00\
+
+**Model Output:**\
+Temp. Maxima: 6.088Mk\
+Temp. Maxima time: 800.0s\
+Density Maxima: 3.853e+9 cm^-3\
+Density Maxima Time: 1750s\
+End of Heating: 1500s\
+
+**Emission Measure**\
+Assumed Width : 10Mm \
+Cross sectional Area: 1e+18 cm^2\
+Half loop volume : 4.00e+27 cm^3\
+Maxima Volume EM: 5.940e+46 cm^-3\
+Time of Maxima EM:1750s\
+Integrated Excess Heating: 9.9975 erg cm^-3\
+
+**Compiled Result of all 3 experiment**
+| Parameter / Model Output | 250 s | 500 s | 1500 s |
+|---|---:|---:|---:|
+| **Heating Parameters** | | | |
+| Loop half-length (Mm) | 40 | 40 | 40 |
+| Pulse shape | Triangular | Triangular | Triangular |
+| Background heating rate (erg cm⁻³ s⁻¹) | 3.50 × 10⁻⁵ | 3.50 × 10⁻⁵ | 3.50 × 10⁻⁵ |
+| Pulse start time (s) | 0 | 0 | 0 |
+| Pulse duration (s) | 250 | 500 | 1500 |
+| Peak heating rate (erg cm⁻³ s⁻¹) | 0.0800 | 0.0400 | 0.0133 |
+| Heating partition | 1.00 | 1.00 | 1.00 |
+| Heating end time (s) | 250 | 500 | 1500 |
+| **Integrated Excess Heating** | | | |
+| Analytical excess energy (erg cm⁻³) | 10.000 | 10.000 | 9.975 |
+| Numerical integrated excess energy (erg cm⁻³) | 9.999 | 9.9975 | 9.9975 |
+| **Assumed Strand Geometry** | | | |
+| Strand width (Mm) | 10 | 10 | 10 |
+| Cross-sectional area (cm²) | 1.00 × 10¹⁸ | 1.00 × 10¹⁸ | 1.00 × 10¹⁸ |
+| Adopted half-loop volume (cm³) | 4.00 × 10²⁷ | 4.00 × 10²⁷ | 4.00 × 10²⁷ |
+| **Predicted Plasma Outputs** | | | |
+| Peak electron temperature (MK) | 10.314 | 8.240 | 6.088 |
+| Time of peak temperature (s) | 135.0 | 258.3 | 800.0 |
+| Peak density (cm⁻³) | 4.216 × 10⁹ | 4.066 × 10⁹ | 3.853 × 10⁹ |
+| Time of peak density (s) | 770 | 1017.5 | 1750 |
+| Peak volume EM (cm⁻³) | 7.110 × 10⁴⁶ | 5.940 × 10⁴⁶ | 5.940 × 10⁴⁶ |
+| Time of peak EM (s) | 770 | 1750 | 1750 |
+
+
+
 
 
 
