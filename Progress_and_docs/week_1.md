@@ -1,5 +1,5 @@
 # Week 1
-#Task Completed
+## Task Completed
 1. Read the project scope and the introduction and conclusions of Klimchuk et al. (2008).
 2. Created a dedicated Python environment with EBTEL++ and plotting tools.
 3. Reproduce the one documented example, ran the unchanged single-event example: *Heating only the Electrons with One Triangular Event*.
@@ -8,7 +8,7 @@
 6. Adjusted peak heating rates to maintain approximately constant integrated excess heating.
 7. Calculated the volume emission measure. Plotted and compared temperature, density and emission measure for all three cases.
 
-#Glossary
+## Glossary
 1. **Coronal Strand**:Strands are finer magnetic flux tubes that make up the unresolved structure. Each strands contain plasma and can have its own heating and cooling history. Many, if not all coronal loops are bundles of thin strands that are heated impulsively & Quasi-randomly by nanoflares.
 2. **Thermal Conduction**:The transport of thermal energy along the magnetic field from hotter regions of the corona towards cooler lower atmosphere, particularly the transition region and chromosphere.
 3. **Chromospheric Evaporation**: The upward flow of heated chromospheric plasma along magnetic loops into the corona, increasing coronal density in response to non-thermal energy deposition and downward conductive heating.
@@ -19,5 +19,7 @@
 8. **Background Heating**:The persistent heating component used to maintain the pre-event or background coronal state.
 9. **Thermal Draining(Condensation)**: The downward flow of coronal plasma towards the lower atmosphere as the loop cools and its pressure decreases.
 
-##Reproducing the experiment
+## Reproducing the documented example
+**Example 1: Heating only the electrons with one triangular event**
+![week1](Progress_and_docs/plots_figures/week1/example_unchanged.png)
 
