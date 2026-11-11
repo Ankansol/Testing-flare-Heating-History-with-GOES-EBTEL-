@@ -23,4 +23,20 @@
 **Example 1: Heating only the electrons with one triangular event**
 ![Example Unchanged](plots_figures/week1/example_unchanged.png)
 
+**Result**
+Loop Half Length: 40Mm\
+Pulse shape: Triangular\
+Background Heating: 3.50e-05 cm^-3 s^-1\
+Pulse duration: 500s\
+Peak Heating Rate: 0.04 erg cm^-3 s^-1\
+
+**Model Output:**\
+Temp. Maxima: 8.240Mk\
+Temp. Maxima time: 258.3s\
+Density Maxima: 4.066e+9 cm^-3\
+Density Maxima Time: 1750s\
+End of Heating: 500s\
+
+
+
 
