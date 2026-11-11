@@ -145,6 +145,14 @@ Integrated Excess Heating: 9.9975 erg cm^-3\
 
 
 
+1. The three heating-duration cases have approximately the same integrated excess heating (~10 erg cm⁻³), while their peak heating rates differ.
+2. The 250 s pulse produces the highest peak electron temperature (10.314 MK), followed by the 500 s (8.240 MK) and 1500 s (6.088 MK) cases.
+3.  The peak density occurs later than the peak temperature in all three simulations, illustrating the delayed density response associated with chromospheric evaporation.
+4.  The density continues to evolve after the heating pulse ends, showing that the plasma response is not limited to the duration of energy input.
+5.  The results indicate that the timescale and rate of energy delivery influence the peak thermal response, even when the total integrated excess heating is approximately fixed.
+
+
+
 
 
 
