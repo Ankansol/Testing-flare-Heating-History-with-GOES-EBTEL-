@@ -1,7 +1,7 @@
----
+
 layout: default
 title: Research Progress
----
+
 
 # Solar Flare Heating Histories
 
